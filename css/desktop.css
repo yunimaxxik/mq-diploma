@@ -271,7 +271,7 @@ ul {
 	margin-right: 0;
 }
 
-.nav__humburger-lines {
+.hamburger-lines {
 	display: none;
 	height: 19px;
 	width: 23px;
@@ -279,7 +279,7 @@ ul {
 	justify-content: space-between;
 }
 
-.nav__humburger-lines .line {
+.hamburger-lines .line {
 	height: 3px;
 	width: 100%;
 	background: #fff;
