@@ -807,11 +807,11 @@ ul {
 		display: none;
 	}
 
-	.humburger__lines {
+	.hamburger-lines {
 		display: flex;
 	}
 
-	.humburger__lines .line {
+	.hamburger-lines .line {
 		display: block;
 	}
 
