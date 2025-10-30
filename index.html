@@ -5,11 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>NOEMI</title>
 		<link rel="stylesheet" href="css/desktop.css" />
-		<link rel="stylesheet" href="css/tablet.css" media="(max-width: 1200px)" />
-		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 640px)" />
 	</head>
 	<body>
-		<div class="pop-up_hidden">
+		<div class="pop-up pop-up_hidden">
 			<form class="pop-up__form">
 				<h2 class="pop-up__form-title title">ваш фидбек</h2>
 				<label class="pop-up__form-label" for="visiting"
@@ -54,13 +52,12 @@
 				<button class="pop-up__form-button button">Отправить</button>
 			</form>
 		</div>
-		<!---------------------------------------------- HEADER  ---------------------------------------------->
 		<header class="header">
 			<div class="wrapper">
 				<nav class="nav" aria-label="Главное меню">
 					<a class="nav__logo" href="/">
 						<img
-							class="nav__logo-img"
+							class="logo-img"
 							src="/mq-diploma/svg/noemi-logo.svg"
 							alt="Логотип NOEMI"
 						/>
@@ -85,15 +82,15 @@
 							<a class="nav__item-link" href="#">Контакты</a>
 						</li>
 					</ul>
-					<div class="humburger__lines">
+					<div class="humburger__lines nav__humburger-lines">
 						<span class="line"></span>
 						<span class="line"></span>
 						<span class="line"></span>
 					</div>
 				</nav>
-				<a class="nav__logo-mobile" href="/">
+				<a class="logo-mobile" href="/">
 					<img
-						class="nav__logo-img"
+						class="logo-img"
 						src="/mq-diploma/svg/noemi-logo.svg"
 						alt="Логотип NOEMI"
 					/>
@@ -101,10 +98,9 @@
 				<h1 class="header__title">Блог о творчестве, спорте, и образе жизни</h1>
 			</div>
 		</header>
-		<!---------------------------------------------- MAIN  ---------------------------------------------->
 		<section class="trends">
 			<h2 class="title">сейчас в тренде</h2>
-			<div class="trend__list">
+			<div class="trends__list">
 				<article class="trend">
 					<div class="trend__content">
 						<ul class="trend__categories">
@@ -173,7 +169,7 @@
 			</div>
 		</section>
 		<div class="wrapper">
-			<div class="main__info">
+			<div class="main-info">
 				<main class="main">
 					<section class="posts">
 						<article class="post">
@@ -330,7 +326,7 @@
 				</main>
 				<aside class="aside">
 					<section class="new-posts">
-						<h2 class="sidebar__title">Новые посты</h2>
+						<h2 class="sidebar-title">Новые посты</h2>
 						<ul class="new-posts__list">
 							<li class="new-post">
 								<a href="#" class="new-post__link">
@@ -433,7 +429,7 @@
 						</form>
 					</section>
 					<section class="subscribe">
-						<h2 class="sidebar__title">Рассылка</h2>
+						<h2 class="sidebar-title">Рассылка</h2>
 						<form class="subscribe__form" action="#" method="post">
 							<label for="email" class="visually-hidden">Ваш email</label>
 							<input
@@ -447,7 +443,7 @@
 						</form>
 					</section>
 					<section class="tags">
-						<h2 class="sidebar__title">Теги</h2>
+						<h2 class="sidebar-title">Теги</h2>
 						<ul class="tags__list">
 							<li><a class="tags__list-link" href="#">Fashion</a></li>
 							<li><a class="tags__list-link" href="#">Music</a></li>
@@ -460,7 +456,7 @@
 						</ul>
 					</section>
 					<section class="categories">
-						<h2 class="sidebar__title">Темы</h2>
+						<h2 class="sidebar-title">Темы</h2>
 						<ul class="categories__list">
 							<li class="categories__list-item">
 								<a class="categories__list-link" href="#">Красота </a
@@ -492,7 +488,7 @@
 			</div>
 			<section class="goods">
 				<h2 class="title">наши изделия</h2>
-				<div class="good__list">
+				<div class="goods__list">
 					<article class="good">
 						<img
 							class="good__img"
@@ -509,7 +505,7 @@
 								<p class="good__price">
 									<span class="good__sale">1000 Р</span>800 Р
 								</p>
-								<button class="button goot__btn">в магазин</button>
+								<button class="button good__btn">в магазин</button>
 							</div>
 						</div>
 					</article>
@@ -529,7 +525,7 @@
 							</p>
 							<div class="good__content-description">
 								<p class="good__price">3500 Р</p>
-								<button class="button goot__btn">в магазин</button>
+								<button class="button good__btn">в магазин</button>
 							</div>
 						</div>
 					</article>
@@ -551,13 +547,12 @@
 								<p class="good__price">
 									<span class="good__sale">500 Р</span>400 Р
 								</p>
-								<button class="button goot__btn">в магазин</button>
+								<button class="button good__btn">в магазин</button>
 							</div>
 						</div>
 					</article>
 				</div>
 			</section>
-			<!---------------------------------------------- FOOTER  ---------------------------------------------->
 			<footer class="footer">
 				<div class="footer__social">
 					<ul class="footer__links">
