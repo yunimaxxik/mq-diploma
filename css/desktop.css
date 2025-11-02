@@ -304,6 +304,7 @@ ul {
 	gap: 4px;
 	flex-wrap: nowrap;
 	width: 100%;
+	height: auto;
 }
 
 .trend {
@@ -312,7 +313,6 @@ ul {
 	justify-content: flex-end;
 	padding: 18px 22px 16px 18px;
 	width: 25%;
-	height: 100%;
 	min-height: 320px;
 	position: relative;
 }
@@ -831,7 +831,6 @@ ul {
 
 	.trend {
 		width: calc(50% - 2px);
-		min-height: 247px;
 	}
 
 	.trend__title {
@@ -878,6 +877,19 @@ ul {
 	.good {
 		max-width: none;
 		width: calc(50% - 25px);
+	}
+}
+
+@media (max-width: 1200px) and (orientation: portrait) {
+	.trend {
+		width: 25%;
+	}
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+	.trend {
+		width: calc(50% - 2px);
+		min-height: 247px;
 	}
 }
 
@@ -963,5 +975,18 @@ ul {
 
 	.good {
 		width: 100%;
+	}
+}
+
+@media (max-width: 640px) and (orientation: portrait) {
+	.trend {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+	.trend {
+		width: calc(50% - 2px);
+		min-height: 247px;
 	}
 }
