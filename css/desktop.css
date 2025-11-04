@@ -882,14 +882,16 @@ ul {
 
 @media (max-width: 1200px) and (orientation: portrait) {
 	.trend {
-		width: 25%;
+		width: calc(50% - 2px);
 	}
 }
 
 @media (max-width: 1200px) and (orientation: landscape) {
+	.trends__list {
+		flex-wrap: nowrap;
+	}
 	.trend {
-		width: calc(50% - 2px);
-		min-height: 247px;
+		width: 25%;
 	}
 }
 
@@ -935,6 +937,10 @@ ul {
 
 	.trends {
 		padding-top: 40px;
+	}
+
+	.trends__list {
+		flex-wrap: wrap;
 	}
 
 	.trend {
